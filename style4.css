@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: space-between
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+}
+
+.rect {
+    flex: 1;
+    border: 1px black solid
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background: blue;
+}

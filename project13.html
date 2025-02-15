@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="UTF-8">
+    <title>Music Quiz</title>
+    <link rel="stylesheet" href="project12.css" />
+</head>
+<body>
+    <div class="quiz2">
+    <h2>Music Quiz</h2>
+        <div>
+            <P>Do you know your instruments?  Take the challenge!</P>
+        </div> <br>
+
+        <div class="question">
+            <p>What instrument is both in the percussion and string family?</p>
+
+            <div class="answers">
+                <label for="q1">Select an answer: </label><br>
+                <select name="q1" id="q1">
+                    <option value="Harp">Harp</option>
+                    <option value="Piano">Piano</option>
+                    <option value="Dulcimer">Dulcimer</option>
+                    <option value="All of the above">All of the above</option>
+                </select><br>
+            </div>
+        </div>
+
+        <div class="question">
+            <p>What instrument not a brass instrument?</p>
+
+            <div class="answers">
+                <label>
+                    <input type="radio" name="q2" value="Trumpet"> Trumpet
+                </label><br>
+                <label>
+                    <input type="radio" name="q2" value="Saxophone"> Saxophone
+                </label><br>
+                <label>
+                    <input type="radio" name="q2" value="Trombone"> Trombone
+                </label><br>
+                <label>
+                    <input type="radio" name="q2" value="French horn"> French horn
+                </label><br>
+            </div>
+        </div>
+        <br>
+        <br>
+        <button type="button" class="submit-btn" onclick="checkAnswers()">Submit</button>
+        <br>
+        <br>
+        <div id="result" class="result"></div>
+        </div>
+
+    </div>
+    
+
+       <script src="project13.js"></script>
+</body>
+</html>

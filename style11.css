@@ -1,0 +1,36 @@
+.counter {
+    border: 2px solid grey;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 2px;
+}
+
+.startValue {
+    border: 1px solid grey;
+    margin-bottom: 10px;
+    border-radius: 1px;
+    padding-left: 5px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.startValue-text {
+    font-size: 20px;
+}
+
+.result {
+    border: 1px solid grey;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 1px;
+    padding-left: 5px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.result-text {
+    font-size: 40px;
+}
+

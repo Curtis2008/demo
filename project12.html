@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="UTF-8">
+    <title>Rock Quiz</title>
+    <link rel="stylesheet" href="project12.css" />
+</head>
+<body>
+    <div class="quiz">
+        <h2>Rock Quiz</h2>
+        <p>Answer the following multiple choice questions. See how many you can get!</p>
+        <div class="question">
+            <p>What band sang "Fallen Angel"?</p>
+            <div class="answers">
+                <label>
+                    <input type="radio" name="q1" value="Fallout Boy"> Fallout Boy
+                </label><br>
+                <label>
+                    <input type="radio" name="q1" value="Poison"> Poison
+                </label><br>
+                <label>
+                    <input type="radio" name="q1" value="Warrant"> Warrant
+                </label><br>
+                <label>
+                    <input type="radio" name="q1" value="Montley Crue"> Montley Crue
+                </label><br>
+            </div>
+         </div>  
+         <div class="question">
+            <p>Who sang "Modern Love"?</p>
+            <div class="answers">
+                <label>
+                    <input type="radio" name="q2" value="David Bowie"> David Bowie
+                </label><br>
+                <label>
+                    <input type="radio" name="q2" value="Tom Petty & the Heartbreakers"> Tom Petty & the Heartbreakers
+                </label><br>
+                <label>
+                    <input type="radio" name="q2" value="George Michael"> George Michael
+                </label><br>
+                <label>
+                    <input type="radio" name="q2" value="Cream"> Cream
+                </label><br>
+            </div>
+         </div> 
+         <br>
+         <button type="button" class="submit-btn" onclick="checkAnswers()">Submit</button>
+         <br>
+         <br>
+         <div id="result" class="result"></div>
+
+
+         
+    </div>
+    
+
+       <script src="project12.js"></script>
+</body>
+</html>
